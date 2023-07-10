@@ -1,0 +1,12 @@
+---
+:id: 63677519
+:submitters:
+- :name: Park, Hyun Hee
+  :email: oneducationly@gmail.com
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2021-02-09 08:07:39.731872000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2021-02-09 00:07:39.731872000 Z
+:status: processed
+:score: 100.0
