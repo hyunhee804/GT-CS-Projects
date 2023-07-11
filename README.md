@@ -1,2 +1,2 @@
 # GT-CS-Projects
-This is my Georgia Tech CS Projects
+These are the projects I completed during my time at Georgia Tech.
