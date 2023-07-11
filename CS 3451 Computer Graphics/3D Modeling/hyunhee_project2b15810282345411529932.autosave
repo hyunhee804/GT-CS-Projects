@@ -1,0 +1,69 @@
+/*****************************
+Project 2A
+
+Hyun Hee Park
+3D Object Modeling
+Protagonist: Squid Game Doll
+
+*******************************/
+
+
+
+let time = 0;
+
+function setup() {
+  createCanvas(1000, 600, WEBGL);
+ 
+  let fov = 60.0; 
+  perspective(Math.PI * fov / 180.0, width / height, 0.1, 2000);
+}
+
+
+function draw() {
+  // set background color 
+  background(200, 234, 241);
+ 
+  // set the virtual camera position
+  camera(0, 0, 100, 0, 0, 0, 0, 1, 0);  // from, at, up
+  
+  // include some light even in shadows
+  ambientLight(100, 100, 100);
+  
+  // set light position
+  pointLight(255, 255, 255, 88, -100, 200);
+
+  // no plygon outlines
+  noStroke();  
+  
+   let delta = 25;
+  //camera(frameCount * 1, 0, 0);
+  
+  // background item starts here
+
+  // grass
+  fill(210,177,96);
+  push();
+  translate(0, 150, -80);
+  box(2000, 35, 100000);
+  pop();
+  
+  // midterm
+  fill (19, 162, 153);
+  push();
+  translate();
+  pop();
+  
+  
+  // final
+  fill (19, 162, 153);
+  push();
+  translate();
+  pop();
+  
+  
+  // Squid Game Doll Character starts here
+ squidDoll();
+  
+  // update the time
+  time += 0.04; 
+}
