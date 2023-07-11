@@ -1,0 +1,41 @@
+body {
+	font: 12px sans-serif;
+}
+
+.title {
+	font: 16px serif;
+	font-weight: bold;
+}
+
+.tick>line {
+	fill: none;
+	stroke: black;
+}
+
+.tick>text {
+	fill: black;
+}
+
+path.domain {
+	fill: none;
+	stroke-width: 2px;
+	stroke: black;
+}
+
+#wrapper {
+	clear: both;
+}
+
+#chart1 {
+	float: left;
+}
+
+#chart2 {
+	float: left;
+}
+
+#chart3 {
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}

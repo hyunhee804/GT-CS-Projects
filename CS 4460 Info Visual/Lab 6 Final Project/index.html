@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/> 
+		<title>CS 4460 Final Project</title>
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>	 
+   	</head>
+   	<body>
+   		<h4>CS 4460 Final Project: Motor Vehicle Crash Deaths by Type</h4>
+   		<br />
+   		<br />
+	   	<div id="wrapper">
+			<div id="chart1">
+	    	</div>
+		  	<div id="chart2">
+	        </div>
+			<div>
+				<label for="categorySelect">Types of Transportation: </label>
+				<select id="transportSelect">
+				  <option selected value="0">Pedestrian</option>
+				  <option value="1">Motorcycle</option>
+				  <option value="2">Bicycle</option>
+				  <option value="3">Trucks</option>
+				</select>
+			</div>
+			<div id="chart3">
+				<strong> Year Distribution: </strong> <svg width="20px" height="12px"></svg><br />
+				<strong> 1975 - 1990 </strong> <svg id="centry1" width="20px" height="12px"></svg><br />
+		  		<strong> 1991 - 2005 </strong> <svg id="centry2" width="20px" height="12px"></svg><br />
+		  		<strong> 2006 - 2020 </strong> <svg id="centry3" width="20px" height="12px"></svg><br />
+		  		<p></p>
+	        </div>
+	   	</div>
+	</body>
+</html>
+
